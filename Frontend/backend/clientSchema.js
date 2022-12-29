@@ -4,5 +4,5 @@ const clientSchema=new mongoose.Schema([
     {mailId:String},
     {fileType:String},
     {query:String}
-])
+]) 
 module.exports=mongoose.model("Clients",clientSchema);
