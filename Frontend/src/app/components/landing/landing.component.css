@@ -1,0 +1,36 @@
+.row{
+    display: block;
+    padding: 100px;
+    background:url('/assets/subtle-prism.png');
+}
+.col-1 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.col-1 h2{
+    font-size:20px ;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.col-1 h3{
+    font-size: 48px;
+    text-transform: capitalize;
+    margin: 20px 0;
+    font-weight: 800;
+    color: brown;
+}
+.col-1 p{
+    font-size:12px ;
+    width: 40%;
+    margin: auto;
+}
+button{
+    padding: 10px 20px ;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: 0ch;
+    background-color: brown;
+    box-shadow: 3px 3px 3px 1px grey;
+    color: aliceblue;
+    font-weight: 600;
+}
