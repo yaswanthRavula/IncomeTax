@@ -15,7 +15,7 @@
 h1{
     width: fit-content;
     margin: auto;
-    color: brown;
+    color: grey;
 }
 .row{
     display: flex;
@@ -31,7 +31,7 @@ h1{
     font-weight: 600;
    margin-bottom: 8px; 
    margin-left: 2px;
-   color: darkolivegreen ;
+   color:grey ;
 }
 input ,textarea{
     background: rgba(165, 42, 42, 0.054);
@@ -45,7 +45,7 @@ input ,textarea{
 input::placeholder , textarea::placeholder{
     font-size: 12px;
     font-weight: 600;
-    color: rgba(128, 128, 128, 0.518);
+    color: rgba(38, 38, 38, 0.518);
     font-family: 'Lato', sans-serif;
 
 }
@@ -62,10 +62,43 @@ textarea{
 button{
     margin: auto;
     width: fit-content;
-    background: brown;
+    background:yellowgreen;
     border: 0px;
     padding: 10px 30px;
-    color: white;
+    font-weight: 600;
+    color:rgba(1, 30, 36, 0.88); ;
     border-radius: 5px;
     margin-top: 30px;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px){
+    .container{
+        width: fit-content;
+        padding: 30px 50px;
+        border: 1px solid black;
+        margin: auto;
+    }
+    .row{
+        display: inline;
+    }
+    .item{
+        width: fit-content;
+    }
+    textarea{
+        width:160px;
+        height: 140px;
+    }
+
+    h1{
+        margin-bottom: 50px;
+        font-size: 13px;
+    }
+    p{
+        font-size: 11px;
+    }
+    input::placeholder , textarea::placeholder{
+        font-size: 11px;
+    }
 }

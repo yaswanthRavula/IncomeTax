@@ -1,0 +1,8 @@
+<h1 > What Services do we provide ?</h1>
+<div class="container" >
+    <div class="each-service" *ngFor="let imageUrl of imageArray; index as i">
+    <img [src]="imageUrl">
+    <h2>{{titleArray[i]}}</h2>
+    <p>{{descriptionArray[i]}}</p>
+   </div>    
+</div>

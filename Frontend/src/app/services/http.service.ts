@@ -7,11 +7,14 @@ import { Client } from '../shared/client';
   providedIn: 'root'
 })
 export class HttpService {
-   url="http://localhost:8080/clients/"
+   url="https://income-tax-alpha.vercel.app/clients/"
 
   constructor(private http:HttpClient) { }
 
   addClient(client:Client){
     return this.http.post(this.url,client);
   } 
+  getAllClients():Observable<Client[]>{
+    return this.http.get<Client[]>(this.url);
+  }
 }

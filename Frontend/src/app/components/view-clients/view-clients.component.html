@@ -1,0 +1,23 @@
+<div id="lock-container" class="lock-container">
+    <p class="password">Only Admin !!</p>
+    <input (input)="onInputChanged()" placeholder="Enter Admin key here" [(ngModel)]="adminKey"><br>
+    <button (click)="onLogin()" id="login" class="login">Login</button>
+</div>
+<div id="container" class="container">
+    <p class="title">List of Clients</p>
+    <div class="heading-container">
+        <p class="sno">S.No</p>
+        <p class="name">Name</p>
+        <p class="mail">Mail Id</p>
+        <p class="filetype">File Type</p>
+        <p class="query">Query</p>
+    </div>
+    <div id="list-container-{{item.fileType}}" *ngFor="let item of clients; index as i" class="list-container">
+        <p class="sno">{{i+1}}</p>
+        <p class="name">{{item.name}}</p>
+        <p class="mail">{{item.mailId}}</p>
+        <p class="filetype">{{item.fileType}}</p>
+        <p class="query">{{item.query}}</p>
+    </div>
+    
+</div>

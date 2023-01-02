@@ -1,0 +1,101 @@
+.container{
+    background: rgba(177, 214, 247, 0.29);
+    height: 100vh;
+}
+.title{
+    width: fit-content;
+    margin: auto;
+    border: 0;
+    font-family:  'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    margin: 0px auto !important;
+    padding: 20px;
+}
+.heading-container, .list-container{
+    border-radius: 5px;
+    display:flex;
+    text-align: left;
+    margin: auto;
+    width: 90%;
+    align-items: center;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    
+}
+p{
+    margin: 0;
+    padding: 10px;
+    line-height: 30px;
+    border-right :1px solid rgba(0, 0, 0, 0.14);
+    margin-right: 5px;
+}
+.heading-container{
+    background:rgba(17, 17, 17, 0.37);
+    color: white;
+    margin-top: 50px;
+}
+.list-container{
+    margin: 0px auto;
+  
+    
+    background:rgba(252, 250, 250, 0.574);
+    color: black;
+    font-weight: 500;
+}
+.list-container:hover{
+    cursor: pointer;
+    background:rgba(252, 250, 250, 0.974);
+}
+.sno{
+    width: 50px;
+}
+.name{
+    width: 120px !important;
+}
+.name, .mail,.filetype{
+    width: 180px;
+    margin-left: 0;
+    
+}
+.query{
+    border-right: 0;
+}
+.lock-container{
+    margin: auto;
+    margin-top: 4%;
+    display: block;
+    text-align: center;
+    width: 400px;
+    height: 150px;
+    border: 1px solid rgba(128, 128, 128, 0.175);
+
+    background-color: aliceblue;
+}
+.lock-container p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    border-right: 0;
+}
+button{
+    background: grey;
+    border: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    padding: 5px 30px;
+    align-items: center;
+    border-radius:5px ;
+    margin-top: 20px;
+
+}
+input{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 5px 10px;
+    border: 1px solid grey;
+    outline: 0;
+
+}
