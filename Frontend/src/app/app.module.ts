@@ -11,6 +11,7 @@ import { PostedDialogComponent } from './components/dialog/posted-dialog/posted-
 import { AboutComponent } from './components/shared/about/about.component';
 import { ServicesComponent } from './components/shared/services/services.component';
 import { PostedComponentComponent } from './components/posted-component/posted-component.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,7 @@ import { PostedComponentComponent } from './components/posted-component/posted-c
     HttpClientModule,
 
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

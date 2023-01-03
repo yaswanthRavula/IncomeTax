@@ -4,25 +4,27 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
-    background-color: rgba(0, 4, 5, 0.88);
+    background-color: #1E3C72;
+
     color: white;
     font-weight: 500;
     justify-content: space-around;
     font-family: 'Poppins', sans-serif;
     padding: 100px auto !important;
-    padding-top: 10px;
-    padding-bottom: 10px; 
+    padding-top: 0px;
+    padding-bottom: 0px; 
 }
 .logo{
     margin-right: 200px;
     font-weight: 800;
-    
+    font-size: 15px;
     border-bottom: 1px solid yellowgreen;
     color: aliceblue;
 }
 .nav{
     margin: auto 40px;
     cursor: pointer;
+    font-size: 12px;
     text-decoration: underline;
 }
 .nav:hover{
@@ -33,75 +35,95 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
-    background-color: rgba(3, 5, 7, 0.765);
+    background-color: rgba(17, 17, 17, 0.772);
     height: auto;
-    padding: 200px 20px;
-    margin: auto;
-    text-align: center;
+    padding: 100px 40px;    
+    text-align: left;
 
 }
 .body h1{
-    margin: auto;
-    font-size: 75px;
+    font-size: 70px;
     color: white;
     text-transform: capitalize;
-    padding: 10px 5px;
-    font-weight: 800;
-    line-height: 90px;
-    font-family: 'Roboto', sans serif;
-    border-bottom: 1px solid rgba(240, 248, 255, 0.428);
+    padding: 10px 0px;
+    font-weight: 600;
+    line-height: 70px;
+    font-family: 'Poppins';
     width: fit-content;
+    margin-bottom: 0;
+    margin-left: 0;
 }
 .body p{
-    font-family: 'Lato', serif;
+    font-family: 'Poppins';
     color: white;
     width:410px;
-    margin: auto;
-    font-size: 18px;
-    margin-top: 40px;
-    line-height: 30px;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 22px;
 
 }
 .row{
     display: block;
     padding: 100px;
-    background:url('/assets/subtle-prism.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-color: rgba(1, 30, 36, 0.88);
+    padding-left: 50px;
+    background-color: #fff;
    color: aliceblue;
 }
 .col-1 {
-    text-align: center;
+    margin-left: 10%;
     font-family: 'Lato', sans-serif;
+    
+}
+.row img{
+    border-radius: 10px;
+    width: 500px;
+    background-blend-mode: multiply;
+    background-color: rgba(17, 17, 17, 0.772);
+    background: url("/assets/it2023.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .col-1 h2{
+    
     font-size:20px ;
     margin-bottom: 10px;
     text-transform: capitalize;
+    color:black;
 }
 .col-1 h3{
-    font-size: 48px;
+    font-family: 'Poppins';
+    font-size:38px;
     text-transform: capitalize;
     margin: 20px 0;
-    font-weight: 800;
-    color: greenyellow;
+    font-weight: 600;
+    line-height: 42px;
+    color: black;
 }
 .col-1 p{
     font-size:12px ;
-    width: 40%;
-    margin: auto;
+    max-width: 80%;
+    margin: 0;
+    color: grey;
+    font-family: 'Poppins';
+    margin-bottom: 27px;
 }
-button{
+span{
+    color: white !important;
+    
+}
+.col-1 a{
+    cursor: pointer;
     padding: 10px 20px ;
-    border-radius: 10px;
-    margin-top: 40px;
-    border: 0ch;
-    background-color: greenyellow;
-    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.307);
-    color: rgba(0, 0, 0, 0.799);
-    font-weight: 600;
+    border-radius: 50px;
+    margin: 0%;
+    background: #1E3C72;
+    color: #fff;
+    text-decoration: unset;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 50px;
 }
 .bottom{
     height: 200px;
@@ -148,8 +170,11 @@ button{
     span{
         color: white !important;
     }
-    button{
+    .col-1 a{
         font-size: 20px;
         padding: 18px 30px;
+    }
+    .row img{
+        display: none;
     }
 }

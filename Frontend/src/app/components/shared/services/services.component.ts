@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ServicesComponent implements OnInit {
   imageArray=[
     "../../../../assets/employee.jpg",
-    "../../../../assets/individual.jpg",
+    "../../../../assets/t.jpg",
     "../../../../assets/it.jpg",
     "../../../../assets/p.jpg",
     "../../../../assets/q.jpg",

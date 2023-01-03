@@ -1,12 +1,11 @@
 <div class="container">
-    <h1>Provide Details</h1>
+    <h1>Book an Appointment</h1>
     <div class="row">
     <div class="col-1">
-        <div class="item"><p>Name<span style="color:brown">*</span></p><input  [(ngModel)]="name" type="text" placeholder="Enter name "></div>
-        <div class="item"><p>Mail Id<span style="color:brown">*</span></p><input [(ngModel)]="mail" type="text" placeholder="Enter email "></div>
+        <div class="item"><input  [(ngModel)]="name" type="text" placeholder="Enter name "></div>
+        <div class="item"><input [(ngModel)]="mail" type="text" placeholder="Enter email "></div>
         <div>
-            <p>Select Type<span style="color:brown">*</span></p>
-            <select id="select-item" [(ngModel)]="selectedOption" class="select-item">
+            <select id="select-item" required [(ngModel)]="selectedOption" class="select-item">
                 <option vaue="select services" >Select Services</option>
                 <option>Individual Tax Services</option>
                 <option>ITIN Preparation</option>
@@ -22,7 +21,6 @@
     </div>
    <div class="col-2">
     <div class="textarea-item">
-        <p>Any Queries?</p>
         <textarea  [(ngModel)]="query" placeholder="Type your query here"></textarea>
     </div>
    </div>

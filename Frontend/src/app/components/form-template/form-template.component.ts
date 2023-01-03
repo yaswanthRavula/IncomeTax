@@ -12,7 +12,7 @@ export class FormTemplateComponent implements OnInit {
   name;
   mail;
   query="";
-  selectedOption;
+  selectedOption="Select Services";
 
   constructor(private httpService:HttpService,private router:Router) { }
 
