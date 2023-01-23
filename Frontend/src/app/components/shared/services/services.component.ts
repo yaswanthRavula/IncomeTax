@@ -14,16 +14,18 @@ export class ServicesComponent implements OnInit {
     "../../../../assets/q.jpg",
     "../../../../assets/r.jpg",
     "../../../../assets/s.jpg",
+    "../../../../assets/p.jpg",
   ]
-  titleArray=["Individual Tax Services","ITIN Preparation","FBAR Compliance", "Tax Representation","Advanced Tax Paying","Tax Evalution","Extension Filling"];
+  titleArray=["Federal & State Tax Filing","FBAR/FATCA Processing","ITIN Processing", "Amendment Filing","Representaton Services","S-Corp","C-Corp","LLC"];
   descriptionArray=[
-    "As part of the US tax system, all US persons are obligated to file annual income tax returns along with other supporting documentation to report worldwide…",
-    "An Individual Taxpayer Identification Number (ITIN) is a United States tax processing number issued by the Internal Revenue Service for those who…",
-    "In addition to your annual US tax return filing responsibility, if you are a US person and have a foreign bank account or are a signatory on a foreign bank account…",
-    "Tax audit representation, also called audit defense, is a service in which a tax or legal professional stands in on behalf of a taxpayer during an Internal Revenue Service or state income tax audit.",
-    "Both the US and Indian govt allow credit for taxes paid to other countries and there is also a treaty between the US and India designed to reduce double taxation.",
-    "a tax assessment is an evaluation or an estimate of value that is typically performed by a tax assessor. The assessment leads to an “assessed value,” which is a base number used in the calculation of the property tax.",
-    "A filing extension is an exemption that can be made to either individual taxpayers or businesses that are unable to file a tax return to the federal government by the due date."
+    "The federal government imposes the federal income tax legislation. As such, it applies to everyone in all 50 states, regardless of where they reside.",
+    "As you prepare to file your federal tax return and related documents with the IRS, you should be aware that the federal government imposes mandatory reporting requirements ",
+    "The IRS issues Individual Taxpayer Identification Numbers (ITINs) to nonresident and resident aliens, their spouses, and dependents who are ineligible for Social Security Numbers.",
+    "The purpose of an amended return is to make adjustments to a prior year's tax return. Correcting errors and claiming a more beneficial tax status, such as a refund, is possible with an amended tax return.",
+    "The Internal Revenue Service (IRS) also routinely conducts audits to verify the correctness of a taxpayer's return and specific transactions.",
+    "An S corp or S corporation is a business structure permitted by the tax code to distribute its taxable income, credits, deductions, and losses directly to its shareholders. This gives it advantages over the more typical C corporation.",
+    "A C corporation (or C-corp) is a legal structure for a corporation in which the owners are taxed separately from the entity. Additionally, C corporations, the most common type of business, are subject to corporate income taxation.",
+    "A limited liability company (LLC) is a corporate structure in the United States that shields its owners from personal accountability for the firm's debts and liabilities. "
   ]
   constructor() { }
 

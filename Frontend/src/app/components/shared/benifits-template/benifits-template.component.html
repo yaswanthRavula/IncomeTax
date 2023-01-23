@@ -1,0 +1,11 @@
+<div class="container">
+    <h1>Our Benifits</h1>
+    <h4 class="underline">_________<br>_________</h4>
+    <div class="grid">
+        <div class="card-cont" *ngFor="let imageURL of images;  index as i;">
+            <img src="{{imageURL}}">
+            <p>{{title[i]}}</p>
+        </div>
+    </div>
+    
+</div>
